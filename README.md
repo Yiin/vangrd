@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-08 23:13** · [Browser Language and Time Zone Match Your Agent](CHANGELOG.md#entry-202610082313-2bead3d8236e)
+Latest product note: **2026-10-11 19:17** · [Village order stays in sync](CHANGELOG.md#entry-202610111917-071337891901)
 
 Recent fixes:
 
