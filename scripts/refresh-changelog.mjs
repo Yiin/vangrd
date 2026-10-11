@@ -53,6 +53,50 @@ function linkText(value) {
   return value.replace(/[\\[\]|]/g, '\\$&')
 }
 
+// These exact titles identify reviewed fixes and reliability changes in the public feed.
+// Unrecognized notes remain product updates. No keyword guessing changes their category.
+const maintenanceCategories = new Map([
+  ['Agent and Account Improvements', 'fix'],
+  ['Video Bonuses Work Again', 'fix'],
+  ['Farm Lists Keep Your Interval', 'fix'],
+  ['Run Now Runs Once', 'fix'],
+  ['Dodges and Planned Attacks Always Run', 'reliability'],
+  ['Farm Lists Go Out Before a Break', 'reliability'],
+  ['Farm Lists Go Out Together', 'reliability']
+])
+const recentWindowMilliseconds = 30 * 24 * 60 * 60 * 1000
+
+function summaryLink(entry) {
+  return `${entry.date.slice(0, 10)} · [${linkText(entry.title)}](CHANGELOG.md#${entryAnchor(entry)})`
+}
+
+function maintenanceSummary(entries) {
+  const newest = entries[0]
+  // Use product-note dates, never the import time or a documentation commit date.
+  const cutoff = new Date(`${newest.date}:00Z`).valueOf() - recentWindowMilliseconds
+  const recent = entries.filter(entry => new Date(`${entry.date}:00Z`).valueOf() >= cutoff)
+  const fixes = recent.filter(entry => maintenanceCategories.get(entry.title) === 'fix').slice(0, 2)
+  const reliability = recent.filter(entry => maintenanceCategories.get(entry.title) === 'reliability').slice(0, 2)
+  const lines = [
+    '<!-- changelog-summary:start -->',
+    `Latest product update: **${newest.date.replace('T', ' ')}** · [${linkText(newest.title)}](CHANGELOG.md#${entryAnchor(newest)})`,
+    ''
+  ]
+  for (const [label, selected] of [['Recent fixes', fixes], ['Reliability improvements', reliability]]) {
+    if (selected.length) lines.push(`${label}:`, '', ...selected.map(entry => `- ${summaryLink(entry)}`), '')
+  }
+  if (!fixes.length && !reliability.length) {
+    lines.push('Recent product updates:', '', ...entries.slice(0, 3).map(entry => `- ${summaryLink(entry)}`), '')
+  }
+  lines.push(
+    '[Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)',
+    '',
+    'Dates come from product notes, not documentation commits. Listed fixes and reliability improvements are within 30 days of the latest product note.',
+    '<!-- changelog-summary:end -->'
+  )
+  return lines.join('\n')
+}
+
 try {
   const entries = validateEntries(JSON.parse(await readFile(resolve(input), 'utf8')))
   const readmePath = resolve(repository, 'README.md')
@@ -104,15 +148,7 @@ try {
   const changelog = `${lines.join('\n').trimEnd()}\n`
   const marker = /<!-- changelog-summary:start -->[\s\S]*?<!-- changelog-summary:end -->/g
   if ([...readme.matchAll(marker)].length !== 1) throw new Error('README must have exactly one changelog summary block')
-  const summary = [
-    '<!-- changelog-summary:start -->',
-    `Latest authored entry: **${newest.replace('T', ' ')}**. [${entries.length} dated entries](CHANGELOG.md) since ${oldest.slice(0, 10)}.`,
-    '',
-    '| Date | Product update |',
-    '|---|---|',
-    ...entries.slice(0, 5).map(entry => `| ${entry.date.slice(0, 10)} | [${linkText(entry.title)}](CHANGELOG.md#${entryAnchor(entry)}) |`),
-    '<!-- changelog-summary:end -->'
-  ].join('\n')
+  const summary = maintenanceSummary(entries)
   const updatedReadme = readme.replace(marker, () => summary)
   const outputs = [[changelogPath, previous, changelog], [readmePath, readme, updatedReadme]]
   const changed = outputs.filter(([, before, after]) => before !== after)

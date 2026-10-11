@@ -4,7 +4,29 @@ Build villages, run farm lists, train troops, and coordinate defense from one we
 [Vangrd](https://vangrd.bot) runs your configured automation in the cloud while your computer is off.
 Alliance Command gives manual players and agent users shared tools to coordinate an alliance or coalition.
 
+This repository is the public product hub for Vangrd, a privately developed application.
+
 **[Open the demo](https://vangrd.bot/demo)** · **[Create an account](https://vangrd.bot/register)** · **[Explore Alliance Command](https://vangrd.bot/travian-alliance-management)** · [Pricing](https://vangrd.bot/pricing) · [Guides](https://vangrd.bot/guides) · [Changelog](CHANGELOG.md)
+
+## Recent maintenance
+
+<!-- changelog-summary:start -->
+Latest product update: **2026-10-08 23:13** · [Browser Language and Time Zone Match Your Agent](CHANGELOG.md#entry-202610082313-2bead3d8236e)
+
+Recent fixes:
+
+- 2026-10-08 · [Agent and Account Improvements](CHANGELOG.md#entry-202610080051-e570fe1ad3d7)
+- 2026-10-07 · [Video Bonuses Work Again](CHANGELOG.md#entry-202610071228-6508fcc9f12a)
+
+Reliability improvements:
+
+- 2026-10-08 · [Dodges and Planned Attacks Always Run](CHANGELOG.md#entry-202610080727-1787b809d905)
+- 2026-10-07 · [Farm Lists Go Out Before a Break](CHANGELOG.md#entry-202610071503-3d0c6a138d52)
+
+[Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
+
+Dates come from product notes, not documentation commits. Listed fixes and reliability improvements are within 30 days of the latest product note.
+<!-- changelog-summary:end -->
 
 [![Vangrd Status page with active jobs, upcoming work, and recent results](guides/img/status-page.webp)](https://vangrd.bot/demo)
 
@@ -75,23 +97,6 @@ Agents run on Vangrd's infrastructure and follow your configured work and sleep 
 
 Vangrd saves job timing and attempts browser recovery with retry limits.
 The [Status page guide](https://vangrd.bot/guides/travian-bot-status) explains waiting reasons and failure details.
-
-## Recent maintenance
-
-<!-- changelog-summary:start -->
-Latest authored entry: **2026-10-08 23:13**. [211 dated entries](CHANGELOG.md) since 2026-02-25.
-
-| Date | Product update |
-|---|---|
-| 2026-10-08 | [Browser Language and Time Zone Match Your Agent](CHANGELOG.md#entry-202610082313-2bead3d8236e) |
-| 2026-10-08 | [Alliance Intel and Orders](CHANGELOG.md#entry-202610081623-cc9c52ae6fe4) |
-| 2026-10-08 | [Shared Account Controls](CHANGELOG.md#entry-202610081508-7a5f4dc17866) |
-| 2026-10-08 | [Recall Selected Troops](CHANGELOG.md#entry-202610081020-212f5727d1d1) |
-| 2026-10-08 | [Alliance Command](CHANGELOG.md#entry-202610080901-a7db01e1916d) |
-<!-- changelog-summary:end -->
-
-The [complete history](CHANGELOG.md) includes feature additions, compatibility fixes, and recovery improvements.
-The [website changelog](https://vangrd.bot/changelog) is the canonical product history.
 
 ## Start with one workflow
 
