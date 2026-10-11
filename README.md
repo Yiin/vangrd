@@ -1,13 +1,35 @@
-# Vangrd: cloud Travian Legends bot
+# Vangrd: Travian Legends bot and alliance management
 
 Build villages, run farm lists, train troops, and coordinate defense from one web dashboard.
 [Vangrd](https://vangrd.bot) runs your configured automation in the cloud while your computer is off.
+Alliance Command gives manual players and agent users shared tools to coordinate an alliance or coalition.
 
-**[Open the demo](https://vangrd.bot/demo)** · **[Create an account](https://vangrd.bot/register)** · [Pricing](https://vangrd.bot/pricing) · [Guides](https://vangrd.bot/guides) · [Changelog](CHANGELOG.md)
+**[Open the demo](https://vangrd.bot/demo)** · **[Create an account](https://vangrd.bot/register)** · **[Explore Alliance Command](https://vangrd.bot/travian-alliance-management)** · [Pricing](https://vangrd.bot/pricing) · [Guides](https://vangrd.bot/guides) · [Changelog](CHANGELOG.md)
 
 [![Vangrd dashboard with villages, automation controls, and an incoming attack alert](https://vangrd.bot/guides/img/getting-started-dashboard.webp)](https://vangrd.bot/demo)
 
 *An existing guide screenshot with demo data. The interactive demo uses sample accounts and does not send game actions.*
+
+## Alliance and coalition management
+
+[Alliance Command](https://vangrd.bot/travian-alliance-management) gives Travian groups a shared space for members, defence calls, operations, and intelligence.
+Members can paste game pages or use manual forms without an agent.
+Coalitions connect alliances from the same gameworld with chosen sharing permissions.
+Alliance Command is free. Optional agents are billed separately.
+
+Your group can:
+
+- Share incoming attacks, troops, resources, and reports by paste or form.
+- Issue defence calls, collect commitments, and use manual send sheets.
+- Plan operation targets and waves, then assign them to members.
+- Use a shared map, settlement claims, and enemy dossiers.
+- Route alerts and decision cards through Discord and Telegram.
+
+Members choose which data to share. Shared records show their source and age.
+Automated game actions need an eligible agent and send rights.
+
+[Explore alliance and coalition management](https://vangrd.bot/travian-alliance-management) for the current capabilities and Last update date.
+See [Upcoming features](https://vangrd.bot/travian-alliance-management#upcoming) for planned additions.
 
 ## What you can automate
 
@@ -72,6 +94,11 @@ The [complete history](CHANGELOG.md) includes feature additions, compatibility f
 The [website changelog](https://vangrd.bot/changelog) is the canonical product history.
 
 ## Start with one workflow
+
+For group coordination, [open Alliance Command](https://vangrd.bot/app/command) and create or join an alliance.
+You can contribute without a paid agent.
+
+For account automation:
 
 1. [Create your Vangrd account](https://vangrd.bot/register).
 2. Follow the [setup guide](https://vangrd.bot/guides/getting-started) to connect your Travian account and agent.
