@@ -79,7 +79,7 @@ function maintenanceSummary(entries) {
   const reliability = recent.filter(entry => maintenanceCategories.get(entry.title) === 'reliability').slice(0, 2)
   const lines = [
     '<!-- changelog-summary:start -->',
-    `Latest product update: **${newest.date.replace('T', ' ')}** · [${linkText(newest.title)}](CHANGELOG.md#${entryAnchor(newest)})`,
+    `Latest product note: **${newest.date.replace('T', ' ')}** · [${linkText(newest.title)}](CHANGELOG.md#${entryAnchor(newest)})`,
     ''
   ]
   for (const [label, selected] of [['Recent fixes', fixes], ['Reliability improvements', reliability]]) {
