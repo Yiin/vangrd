@@ -6,9 +6,9 @@ Alliance Command gives manual players and agent users shared tools to coordinate
 
 **[Open the demo](https://vangrd.bot/demo)** · **[Create an account](https://vangrd.bot/register)** · **[Explore Alliance Command](https://vangrd.bot/travian-alliance-management)** · [Pricing](https://vangrd.bot/pricing) · [Guides](https://vangrd.bot/guides) · [Changelog](CHANGELOG.md)
 
-[![Vangrd dashboard with villages, automation controls, and an incoming attack alert](https://vangrd.bot/guides/img/getting-started-dashboard.webp)](https://vangrd.bot/demo)
+[![Vangrd Status page with active jobs, upcoming work, and recent results](guides/img/status-page.webp)](https://vangrd.bot/demo)
 
-*An existing guide screenshot with demo data. The interactive demo uses sample accounts and does not send game actions.*
+*Status shows active jobs, upcoming work, and recent results. Screenshot uses synthetic demo data.*
 
 ## Alliance and coalition management
 
