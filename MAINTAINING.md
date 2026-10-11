@@ -53,6 +53,8 @@ The producer exports a JSON array of objects with exactly three string fields.
 
 The example describes the format, not an actual update.
 Dates use `YYYY-MM-DDTHH:MM` without an inferred timezone.
+They identify authored product notes, not deployment timestamps.
+Release notes and screenshots do not provide uptime or timing measurements.
 Entries preserve the canonical order, titles, and Markdown bodies.
 The renderer makes links that start with `/` absolute against `https://vangrd.bot`.
 The feed contains the complete history, including entries older than the website's initial page.

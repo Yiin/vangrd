@@ -26,7 +26,7 @@ You choose the plans, targets, limits, and work periods. Vangrd handles the conf
 | Custom workflows | Chains actions, conditions, and delays with a configured error policy. | [Workflow guide](https://vangrd.bot/guides/custom-automation-workflows) |
 | Account control | Applies work periods and shows jobs, waiting reasons, and failures in Status. | [Schedules](https://vangrd.bot/guides/schedules-and-safety) · [Status guide](https://vangrd.bot/guides/travian-bot-status) |
 
-The guides describe Vangrd's behavior and settings. Screenshots show the interface, not measured success rates.
+The guides explain each setting and show the interface.
 See the [full feature overview](https://vangrd.bot/features) for related automation.
 
 ## Workflows across villages
@@ -53,8 +53,6 @@ Agents run on Vangrd's infrastructure and follow your configured work and sleep 
 
 Vangrd saves job timing and attempts browser recovery with retry limits.
 The [Status page guide](https://vangrd.bot/guides/travian-bot-status) explains waiting reasons and failure details.
-Connection failures, game changes, and invalid credentials can interrupt automation.
-Timed actions depend on the network and game server. A configured arrival time is not a timing guarantee.
 
 ## Recent maintenance
 
@@ -72,7 +70,6 @@ Latest authored entry: **2026-10-08 23:13**. [211 dated entries](CHANGELOG.md) s
 
 The [complete history](CHANGELOG.md) includes feature additions, compatibility fixes, and recovery improvements.
 The [website changelog](https://vangrd.bot/changelog) is the canonical product history.
-Entry dates describe release notes, not deployment times or measured uptime.
 
 ## Start with one workflow
 
