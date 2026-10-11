@@ -5,6 +5,7 @@ Build villages, run farm lists, train troops, and coordinate defense from one we
 Alliance Command gives manual players and agent users shared tools to coordinate an alliance or coalition.
 
 This repository is the public product hub for Vangrd, a privately developed application.
+Its commits track public documentation. The product changelog records application maintenance.
 
 **[Open the demo](https://vangrd.bot/demo)** · **[Create an account](https://vangrd.bot/register)** · **[Explore Alliance Command](https://vangrd.bot/travian-alliance-management)** · [Pricing](https://vangrd.bot/pricing) · [Guides](https://vangrd.bot/guides) · [Changelog](CHANGELOG.md)
 
@@ -65,10 +66,10 @@ You choose the plans, targets, limits, and work periods. Vangrd handles the conf
 | Resources | Runs enabled NPC trades and moves resources between linked villages within your limits. | [Resource and supply guide](https://vangrd.bot/guides/travian-npc-bot) |
 | Settlement | Prepares settlers and sends them to coordinates you choose. | [Expansion guide and screenshots](https://vangrd.bot/guides/auto-expansion) |
 | Defense | Monitors incoming attacks and runs configured village responses. | [Defense guide and screenshots](https://vangrd.bot/guides/automated-defense) |
-| Attack planning | Plans waves by send time or arrival time and reports failed or missed plans. | [Attack planner guide](https://vangrd.bot/guides/attack-planner) |
+| Attack planning | Plans waves by send time or arrival time and reports failed or missed plans. | [Attack planner guide](https://vangrd.bot/guides/attack-planner) · [Timing evidence](docs/reliability-evidence.md#recorded-timing-and-measurement-limits) |
 | Player tracking | Records player history and finds nearby inactive villages. | [Tracking guide and screenshots](https://vangrd.bot/guides/player-tracking) |
 | Custom workflows | Chains actions, conditions, and delays with a configured error policy. | [Workflow guide](https://vangrd.bot/guides/custom-automation-workflows) |
-| Account control | Applies work periods and shows jobs, waiting reasons, and failures in Status. | [Schedules](https://vangrd.bot/guides/schedules-and-safety) · [Status guide](https://vangrd.bot/guides/travian-bot-status) |
+| Account control | Applies work periods and shows jobs, waiting reasons, and failures in Status. | [Schedules](https://vangrd.bot/guides/schedules-and-safety) · [Status guide](https://vangrd.bot/guides/travian-bot-status) · [Execution controls](docs/execution-controls.md) |
 
 The guides explain each setting and show the interface.
 See the [full feature overview](https://vangrd.bot/features) for related automation.
@@ -97,6 +98,8 @@ Agents run on Vangrd's infrastructure and follow your configured work and sleep 
 
 Vangrd saves job timing and attempts browser recovery with retry limits.
 The [Status page guide](https://vangrd.bot/guides/travian-bot-status) explains waiting reasons and failure details.
+[Our reliability evidence](docs/reliability-evidence.md) records dated test outcomes and the limits of the published timing sample.
+[Account access, removal, and support](docs/data-and-access.md) explains sharing controls and data requests.
 
 ## Start with one workflow
 
