@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-11 19:17** · [Village order stays in sync](CHANGELOG.md#entry-202610111917-071337891901)
+Latest product note: **2026-10-12 10:47** · [Resume setup after an update](CHANGELOG.md#entry-202610121047-e3d4f8c64cf7)
 
 Recent fixes:
 
