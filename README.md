@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-13 09:40** · [Player history exports accept future end dates](CHANGELOG.md#entry-202610130940-e4da3e7364e7)
+Latest product note: **2026-10-15 05:33** · [Clearer chat answers](CHANGELOG.md#entry-202610150533-916eec1a07a8)
 
 Recent fixes:
 
