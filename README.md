@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-15 05:33** · [Clearer chat answers](CHANGELOG.md#entry-202610150533-916eec1a07a8)
+Latest product note: **2026-10-15 22:30** · [Farm lists that send no raids](CHANGELOG.md#entry-202610152230-6f288dc53279)
 
 Recent fixes:
 
