@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-15 22:30** · [Farm lists that send no raids](CHANGELOG.md#entry-202610152230-6f288dc53279)
+Latest product note: **2026-10-16 13:42** · [Safer farm troop tuning](CHANGELOG.md#entry-202610161342-a40e871122e2)
 
 Recent fixes:
 
