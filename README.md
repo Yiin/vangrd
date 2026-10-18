@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-16 13:42** · [Safer farm troop tuning](CHANGELOG.md#entry-202610161342-a40e871122e2)
+Latest product note: **2026-10-18 10:53** · [Dual setup recovery](CHANGELOG.md#entry-202610181053-403ed9d8a8d0)
 
 Recent fixes:
 
