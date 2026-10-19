@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-18 10:53** · [Dual setup recovery](CHANGELOG.md#entry-202610181053-403ed9d8a8d0)
+Latest product note: **2026-10-18 10:55** · [Build queue follows your settings](CHANGELOG.md#entry-202610181055-d5dcf3037b36)
 
 Recent fixes:
 
