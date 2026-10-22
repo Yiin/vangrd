@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-18 10:55** · [Build queue follows your settings](CHANGELOG.md#entry-202610181055-d5dcf3037b36)
+Latest product note: **2026-10-22 11:04** · [Finish setup for new accounts](CHANGELOG.md#entry-202610221104-63ac5bc19085)
 
 Recent fixes:
 
