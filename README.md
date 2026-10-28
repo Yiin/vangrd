@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-22 21:17** · [Page tabs show what each section is doing](CHANGELOG.md#entry-202610222117-4b2117d65c39)
+Latest product note: **2026-10-28 02:15** · [Check your farm lists without turning the bot on](CHANGELOG.md#entry-202610280215-9f0d3cf2e690)
 
 Recent fixes:
 
