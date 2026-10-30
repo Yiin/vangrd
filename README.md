@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-28 02:15** · [Check your farm lists without turning the bot on](CHANGELOG.md#entry-202610280215-9f0d3cf2e690)
+Latest product note: **2026-10-30 12:53** · [Supply lines forget villages you lost](CHANGELOG.md#entry-202610301253-cb7f42d6939b)
 
 Recent fixes:
 
