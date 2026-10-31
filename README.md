@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-10-30 12:53** · [Supply lines forget villages you lost](CHANGELOG.md#entry-202610301253-cb7f42d6939b)
+Latest product note: **2026-10-30 15:30** · [A message when your report is solved](CHANGELOG.md#entry-202610301530-d6e5c861ff9b)
 
 Recent fixes:
 
