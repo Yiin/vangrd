@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-02 13:26** · [Player Tracking stays fast](CHANGELOG.md#entry-202611021326-1a3a713ed91c)
+Latest product note: **2026-11-03 04:12** · [Full player history is back](CHANGELOG.md#entry-202611030412-ab59614b1c9d)
 
 Recent fixes:
 
