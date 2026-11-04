@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-03 04:12** · [Full player history is back](CHANGELOG.md#entry-202611030412-ab59614b1c9d)
+Latest product note: **2026-11-04 11:03** · [Browser settings save again](CHANGELOG.md#entry-202611041103-fef5a1e548ee)
 
 Recent fixes:
 
