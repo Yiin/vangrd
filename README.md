@@ -12,7 +12,7 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-04 21:41** · [Own connections, rest times and Add world](CHANGELOG.md#entry-202611042141-99def0ad40c3)
+Latest product note: **2026-11-06 12:06** · [Find & Probe remembers your search](CHANGELOG.md#entry-202611061206-db68845958bf)
 
 Recent fixes:
 
