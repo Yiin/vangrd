@@ -12,17 +12,13 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-06 12:06** · [Find & Probe remembers your search](CHANGELOG.md#entry-202611061206-db68845958bf)
+Latest product note: **2026-11-07 09:33** · [Send resources to your alliance](CHANGELOG.md#entry-202611070933-19bb5697f1da)
 
-Recent fixes:
+Recent product updates:
 
-- 2026-10-08 · [Agent and Account Improvements](CHANGELOG.md#entry-202610080051-e570fe1ad3d7)
-- 2026-10-07 · [Video Bonuses Work Again](CHANGELOG.md#entry-202610071228-6508fcc9f12a)
-
-Reliability improvements:
-
-- 2026-10-08 · [Dodges and Planned Attacks Always Run](CHANGELOG.md#entry-202610080727-1787b809d905)
-- 2026-10-07 · [Farm Lists Go Out Before a Break](CHANGELOG.md#entry-202610071503-3d0c6a138d52)
+- 2026-11-07 · [Send resources to your alliance](CHANGELOG.md#entry-202611070933-19bb5697f1da)
+- 2026-11-07 · [Setup offers the agent you already have](CHANGELOG.md#entry-202611070455-da42d65aa060)
+- 2026-11-07 · [Faster reconnects with large accounts](CHANGELOG.md#entry-202611070346-7fd7865b7611)
 
 [Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
 
