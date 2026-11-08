@@ -12,13 +12,13 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-07 09:33** · [Send resources to your alliance](CHANGELOG.md#entry-202611070933-19bb5697f1da)
+Latest product note: **2026-11-07 18:30** · [One warning per incoming attack](CHANGELOG.md#entry-202611071830-c27fd8188d1a)
 
 Recent product updates:
 
-- 2026-11-07 · [Send resources to your alliance](CHANGELOG.md#entry-202611070933-19bb5697f1da)
-- 2026-11-07 · [Setup offers the agent you already have](CHANGELOG.md#entry-202611070455-da42d65aa060)
-- 2026-11-07 · [Faster reconnects with large accounts](CHANGELOG.md#entry-202611070346-7fd7865b7611)
+- 2026-11-07 · [One warning per incoming attack](CHANGELOG.md#entry-202611071830-c27fd8188d1a)
+- 2026-11-07 · [Find & Probe checks the radius](CHANGELOG.md#entry-202611071640-1fce4d981b08)
+- 2026-11-07 · [Village settings no longer reset](CHANGELOG.md#entry-202611071615-8ba6c9e33877)
 
 [Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
 
