@@ -12,13 +12,13 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-08 22:09** · [Your own player scans come first](CHANGELOG.md#entry-202611082209-783fd433fea4)
+Latest product note: **2026-11-10 05:26** · [A clearer view of tracked players](CHANGELOG.md#entry-202611100526-38ef5c92e280)
 
 Recent product updates:
 
+- 2026-11-10 · [A clearer view of tracked players](CHANGELOG.md#entry-202611100526-38ef5c92e280)
 - 2026-11-08 · [Your own player scans come first](CHANGELOG.md#entry-202611082209-783fd433fea4)
 - 2026-11-07 · [One warning per incoming attack](CHANGELOG.md#entry-202611071830-c27fd8188d1a)
-- 2026-11-07 · [Find & Probe checks the radius](CHANGELOG.md#entry-202611071640-1fce4d981b08)
 
 [Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
 
