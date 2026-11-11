@@ -12,13 +12,13 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-10 05:26** · [A clearer view of tracked players](CHANGELOG.md#entry-202611100526-38ef5c92e280)
+Latest product note: **2026-11-11 00:30** · [Each agent rests on its own clock](CHANGELOG.md#entry-202611110030-c681f4e1c958)
 
 Recent product updates:
 
-- 2026-11-10 · [A clearer view of tracked players](CHANGELOG.md#entry-202611100526-38ef5c92e280)
-- 2026-11-08 · [Your own player scans come first](CHANGELOG.md#entry-202611082209-783fd433fea4)
-- 2026-11-07 · [One warning per incoming attack](CHANGELOG.md#entry-202611071830-c27fd8188d1a)
+- 2026-11-11 · [Each agent rests on its own clock](CHANGELOG.md#entry-202611110030-c681f4e1c958)
+- 2026-11-10 · [Tracked players: the table is back](CHANGELOG.md#entry-202611101210-25f0e8299884)
+- 2026-11-10 · [Save up for celebrations](CHANGELOG.md#entry-202611101017-2bb18b02eb77)
 
 [Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
 
