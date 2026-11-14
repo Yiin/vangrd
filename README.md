@@ -12,13 +12,13 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-11 00:30** · [Each agent rests on its own clock](CHANGELOG.md#entry-202611110030-c681f4e1c958)
+Latest product note: **2026-11-13 15:09** · [Probe raids work on slower worlds](CHANGELOG.md#entry-202611131509-820094451d97)
 
 Recent product updates:
 
+- 2026-11-13 · [Probe raids work on slower worlds](CHANGELOG.md#entry-202611131509-820094451d97)
+- 2026-11-13 · [The chat sorts your tracked players](CHANGELOG.md#entry-202611131308-2ca3ad2e7d0b)
 - 2026-11-11 · [Each agent rests on its own clock](CHANGELOG.md#entry-202611110030-c681f4e1c958)
-- 2026-11-10 · [Tracked players: the table is back](CHANGELOG.md#entry-202611101210-25f0e8299884)
-- 2026-11-10 · [Save up for celebrations](CHANGELOG.md#entry-202611101017-2bb18b02eb77)
 
 [Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
 
