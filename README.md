@@ -12,13 +12,13 @@ Its commits track public documentation. The product changelog records applicatio
 ## Recent maintenance
 
 <!-- changelog-summary:start -->
-Latest product note: **2026-11-15 18:35** · [Send resources to confederates](CHANGELOG.md#entry-202611151835-804cac6de7e1)
+Latest product note: **2026-11-17 02:38** · [Smithy uses the Plus queue](CHANGELOG.md#entry-202611170238-91182ce36d8d)
 
 Recent product updates:
 
+- 2026-11-17 · [Smithy uses the Plus queue](CHANGELOG.md#entry-202611170238-91182ce36d8d)
 - 2026-11-15 · [Send resources to confederates](CHANGELOG.md#entry-202611151835-804cac6de7e1)
 - 2026-11-13 · [Probe raids work on slower worlds](CHANGELOG.md#entry-202611131509-820094451d97)
-- 2026-11-13 · [The chat sorts your tracked players](CHANGELOG.md#entry-202611131308-2ca3ad2e7d0b)
 
 [Full product changelog](CHANGELOG.md) · [Website changelog](https://vangrd.bot/changelog)
 
